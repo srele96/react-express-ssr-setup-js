@@ -1,0 +1,30 @@
+.pb_8 {
+  padding-bottom: 8px;
+}
+
+.list {
+  list-style: none;
+  max-width: max-content;
+}
+
+.item {
+  position: relative;
+  border-bottom: 1px solid var(--dark-champagne-pink);
+}
+
+.item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background-color: var(--dark-champagne-pink);
+}
+
+.text {
+  display: block;
+  padding: 8px 16px;
+}
