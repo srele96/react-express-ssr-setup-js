@@ -15,10 +15,6 @@ Supports:
 
 `yarn build` - Builds project for production.
 
-## Using yarn 2 - berry (with node_modules :smirk:)
-
-Check out more on [yarn migration guide](https://yarnpkg.com/getting-started/migration).
-
 ## SSR page data
 
 Fetches data from serverless function hosted on [napkin.io](https://www.napkin.io/).
